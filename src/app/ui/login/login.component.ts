@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
   <a (click)='number = 3'>link 3</a>
   <a (click)='number = 4'>link 4</a>
   </nav>
+  <button routerLink='dashboard'>Dashboard</button>
 
   `,
   styles: []
